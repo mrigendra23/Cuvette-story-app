@@ -1,0 +1,75 @@
+.story_categories {
+  width: 100%;
+}
+
+.story_categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 3rem 3rem 0 3rem;
+}
+.story_card {
+  max-width: 23.5rem;
+  overflow: hidden;
+  width: 25%;
+}
+.story_box {
+  cursor: pointer;
+  position: relative;
+}
+.story_bg_img {
+  background-size: cover;
+  border-radius: 1.5rem;
+  display: block;
+  filter: brightness(60%);
+  width: 100%;
+}
+.story_title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: wrap;
+}
+
+.top_story_container {
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.no_story_subtitle {
+  text-align: center;
+  color: #8e8e8e;
+  margin: 5rem auto;
+}
+.see_more_food_btn,
+.see_more_health_btn,
+.see_more_travel_btn,
+.see_more_movies_btn,
+.see_more_education_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ff7373;
+  color: #fff;
+  border-radius: 2rem;
+  border: none;
+  outline: 0;
+  width: 9rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+/* media query */
+@media (max-width: 575px) {
+  
+
+}
